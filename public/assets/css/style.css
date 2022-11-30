@@ -1,0 +1,99 @@
+#contact-wrapper{
+    color : black;
+    margin: 0 auto;
+}
+
+h2{
+    color: white;
+    background-color: blue;
+    padding: 3rem 0 3rem 3rem;
+    font-weight: 500;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info{
+    width: 80%;
+    margin: 1rem auto;    
+}
+
+.contact-email, .contact-adresse{
+    margin: 1rem 0 0 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color : blue;
+    text-decoration: underline;
+}
+
+form{
+    width: 80%;
+    margin: 5rem auto;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 0.75rem 1.25rem;
+    margin: 0.5rem 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 0.25;
+    box-sizing: border-box;
+}
+
+textarea{
+    resize: vertical;
+}
+
+.form-checkbox{
+    width: 100%;
+    margin: 0.5rem 0;
+}
+
+label{
+    margin: 0 1rem;
+}
+
+a{
+    text-decoration: none;
+    color : blue;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+button[type=submit] {
+    width: 100%;
+    font-size: 1rem;
+    background-color: blue;
+    color: white;
+    padding: 0.9rem 1.25rem;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+
+button:hover{
+    color : black;
+    background-color: white;
+    border: 0.1px solid black;
+}
